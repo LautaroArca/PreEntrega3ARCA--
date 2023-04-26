@@ -1,0 +1,98 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: rgba(255, 179, 0, 0.5);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #555;
+}
+
+header {
+  background-color: rgba(255, 179, 0, 0.5);
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  font-weight: bold;
+}
+
+nav a.active {
+  color: #cc5500;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Estilos específicos de la página de Contacto */
+ul:nth-of-type(1) {
+  margin-bottom: 40px;
+}
+
+ul:nth-of-type(2) {
+  margin-bottom: 60px;
+}
+
+ul:nth-of-type(2) li:first-child {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+.logo img {
+  height: 60px;
+}

@@ -1,0 +1,144 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-color: rgba(255, 179, 0, 0.5);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilos para la barra de navegación */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+header nav ul li a:hover {
+  color: #ffb300;
+}
+
+.logo img {
+  height: 60px;
+}
+
+/* Estilos para la sección de productos */
+.productos {
+  background-color: rgba(248, 237, 177, 0.982);
+  padding: 50px 0;
+}
+
+.producto {
+  background-color: rgba(250, 238, 127, 0.219);
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.producto img {
+  width: 50%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.producto h3 {
+  font-size: 24px;
+  margin: 20px;
+}
+
+.producto p {
+  margin: 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+.producto .precio {
+  display: block;
+  margin: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.producto button {
+  display: block;
+  margin: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.producto button:hover {
+  background-color: #ffb300;
+}
+
+/* Estilos para la sección de categorías */
+.categorias {
+  background-color: rgba(255, 179, 0, 0.5);
+  padding: 50px 0;
+}
+
+.categoria {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.categoria img {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.categoria h3 {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.categoria a {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.categoria a:hover {
+  background-color: #ffb300;
+}
