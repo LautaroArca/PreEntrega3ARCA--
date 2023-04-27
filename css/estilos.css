@@ -30,7 +30,7 @@ ul {
 
 /* Estilos del Header */
 header {
-  background-color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
   border-bottom: 1px solid #ffffff;
   height: 60px;
   display: flex;
@@ -201,7 +201,7 @@ nav ul li a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -7,14 +7,16 @@
 
 body {
   font-family: Arial, sans-serif;
-  font-size: 16px;
+  margin: 0;
+  padding: 0;
+
   background-color: rgba(255, 179, 0, 0.5);
 }
 
 /* Estilo de la cabecera */
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #000000;
+  background-color: rgba(255, 179, 0, 0.5);
   padding: 10px;
 }
 
@@ -37,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #333;
 }
 
@@ -57,11 +59,11 @@ td {
 
 th {
   background-color: #333;
-  color: #fff9f9;
+  color: #000000;
 }
 
 tbody tr:nth-child(even) {
-  background-color: #ffffff;
+  background-color: rgba(255, 179, 0, 0.5);
 }
 
 tfoot td {
@@ -76,7 +78,7 @@ tfoot td {
 
 /* Estilo del botón de compra */
 button {
-  background-color: #000000;
+  background-color: #ed1f1f;
   border: none;
   color: #fff;
   padding: 10px 20px;
