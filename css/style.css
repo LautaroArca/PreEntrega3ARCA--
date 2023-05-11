@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Estilos generales */
 body {
   font-family: Arial, sans-serif;
@@ -16,8 +17,7 @@ header {
   background-color: orange;
   padding: 10px;
 }
-
-nav ul {
+header nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -25,18 +25,16 @@ nav ul {
   justify-content: space-between;
   align-items: center;
 }
-
-nav ul li {
+header nav ul li {
   display: inline;
 }
-
-nav ul li a {
+header nav ul li a {
   color: white;
   text-decoration: none;
   padding: 10px;
   text-shadow: 2px 2px 4px black; /* Agrega un sombreado negro */
 }
-nav ul li a:hover {
+header nav ul li a:hover {
   text-decoration: underline;
 }
 
@@ -47,17 +45,14 @@ nav ul li a:hover {
   text-align: center;
   color: white;
 }
-
 .banner h1 {
   font-size: 32px;
   margin-bottom: 20px;
 }
-
 .banner p {
   font-size: 18px;
   margin-bottom: 30px;
 }
-
 .banner a {
   display: inline-block;
   padding: 10px 20px;
@@ -73,37 +68,31 @@ nav ul li a:hover {
   padding: 40px 0;
   background-color: #f2f2f2;
 }
-
-.producto {
+.productos .producto {
   background-color: white;
   padding: 20px;
   margin-bottom: 20px;
 }
-
-.producto img {
+.productos .producto img {
   max-width: 40%;
   height: auto;
   margin-bottom: 10px;
 }
-
-.producto h3 {
+.productos .producto h3 {
   font-size: 24px;
   margin-bottom: 10px;
 }
-
-.producto p {
+.productos .producto p {
   font-size: 16px;
   margin-bottom: 20px;
 }
-
-.precio {
+.productos .producto .precio {
   font-size: 20px;
   font-weight: bold;
   color: orange;
   margin-bottom: 10px;
 }
-
-.producto a {
+.productos .producto a {
   display: inline-block;
   padding: 10px 20px;
   background-color: orange;
@@ -119,7 +108,6 @@ nav ul li a:hover {
   color: white;
   font-size: 20px; /* Ajustar el tamaño del icono */
 }
-
 .navbar-toggler-icon {
   background-color: white;
   height: 1.5rem; /* Ajustar el tamaño del icono */
@@ -131,26 +119,24 @@ nav ul li a img {
   max-height: 70px; /* Ajusta el tamaño del logo */
 }
 
+/* Media Query */
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
   }
-
   .navbar-toggler {
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
   }
-
   .navbar-collapse {
     display: none;
   }
-
   .navbar-collapse.show {
     display: block;
   }
 }
-/* Estilos generales */
+/* Estilos generales 2 */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -168,8 +154,7 @@ header {
   background-color: orange;
   padding: 10px;
 }
-
-nav ul {
+header nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -177,18 +162,15 @@ nav ul {
   justify-content: space-between;
   align-items: center;
 }
-
-nav ul li {
+header nav ul li {
   display: inline;
 }
-
-nav ul li a {
+header nav ul li a {
   color: white;
   text-decoration: none;
   padding: 10px;
 }
-
-nav ul li a:hover {
+header nav ul li a:hover {
   text-decoration: underline;
 }
 
@@ -201,47 +183,39 @@ nav ul li a:hover {
 .alimentos {
   padding: 50px 0;
 }
-
 .alimentos h2 {
   font-size: 24px;
   margin-bottom: 20px;
 }
-
 .alimentos ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
-
-.producto {
+.alimentos .producto {
   background-color: white;
   padding: 20px;
 }
-
-.producto img {
+.alimentos .producto img {
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
 }
-
-.producto h3 {
+.alimentos .producto h3 {
   font-size: 18px;
   margin-bottom: 10px;
 }
-
-.producto p {
+.alimentos .producto p {
   font-size: 14px;
   margin-bottom: 20px;
 }
-
-.precio {
+.alimentos .producto .precio {
   font-size: 16px;
   font-weight: bold;
   color: orange;
   margin-bottom: 10px;
 }
-
-.producto a {
+.alimentos .producto a {
   display: inline-block;
   padding: 10px 20px;
   background-color: orange;
@@ -257,7 +231,8 @@ footer {
   text-align: center;
   color: white;
 }
-/* Estilos generales */
+
+/* Estilos generales 3 */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -284,7 +259,6 @@ nav ul {
   display: flex;
   justify-content: flex-end;
 }
-
 nav ul li {
   margin-left: 10px;
 }
@@ -298,12 +272,10 @@ nav ul li {
   padding: 20px;
   background-color: #f8f9fa;
 }
-
-.promo-item {
+.promociones .promo-item {
   margin-bottom: 20px;
 }
-
-.promo-item img {
+.promociones .promo-item img {
   max-width: 100%;
 }
 
@@ -318,9 +290,10 @@ nav ul li {
     flex-direction: column;
     align-items: center;
   }
-
   nav ul li {
     margin-left: 0;
     margin-bottom: 10px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
